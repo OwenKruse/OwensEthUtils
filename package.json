@@ -1,6 +1,32 @@
 {
+
+  "scripts": {
+    "start": "node RopstenTestNet.js"
+  },
+
   "dependencies": {
-    "ethers": "^5.6.2",
-    "mathjs": "^10.4.2"
+
+  
+
+    
+
+  "ethers": "^5.6.2",
+
+  
+
+    
+
+  "express": "^4.17.3",
+
+  
+
+    
+
+  "mathjs": "^10.4.2"
+
+  
+
   }
+
 }
+
