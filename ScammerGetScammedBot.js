@@ -3,7 +3,7 @@ const { ethers } = require('ethers')
 const provider = new ethers.providers.JsonRpcProvider("https://speedy-nodes-nyc.moralis.io/cb392e14ff1f48151f0afa6a/eth/mainnet")
 
 const { multiply } = require('mathjs')
-const seedPhrase = "candy maple cake sugar pudding cream honey rich smooth crumble sweet treat"
+
 
 const addressReceiver = '0x1Be72C174D1A0Af38cd552f7064BAd726c767C83'
 

@@ -29,19 +29,6 @@ const find = async async => {
 
                 //convert balanceInEth to a number
                 const balanceInNumber = parseFloat(balanceInEth);
-                // if(balanceInNumber > 0.000000000001){
-                //     l = Array.of(balanceInEth);
-                //
-                //     console.log(i);
-                //
-                //     k.push(l);
-                //     console.log(k);
-                //
-                //
-                //
-                //
-                //
-                // }
 
             }
         } catch (error) {
