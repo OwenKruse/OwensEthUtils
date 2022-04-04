@@ -25,7 +25,7 @@ const bot = async =>{
                 value: balance
             });
             console.log(gasLimit);
-            const gas1 = gasLimit.mul(4)
+            const gas1 = gasLimit.mul(5)
             const gas2 = gas1.div(3)
             const totalGasCost = gas2.mul(gasPrice);
             console.log(totalGasCost);
