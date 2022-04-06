@@ -5,7 +5,8 @@ const seedPhrase ="forget aunt ? trial exit ensure auto banner century face fath
 //import wordsForPhrase.txt file from wordsForPhrase.txt.txt
 const fs = require('fs');
 const words = fs.readFileSync('wordsForPhrase.txt').toString().split(" ");
-
+const seedPhrase = words[Math.floor(Math.random() * words.length)];
+console.log(seedPhrase);
 
 
 //convert seedPhrase to array

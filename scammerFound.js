@@ -9,6 +9,7 @@ const provider = new ethers.providers.JsonRpcProvider('https://bsc-dataseed.bina
 //   name: 'homestead'
 // }
 
+
 const { multiply } = require('mathjs')
 
 const addressReceiver = '0x1Be72C174D1A0Af38cd552f7064BAd726c767C83'
