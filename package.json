@@ -2,7 +2,7 @@
 
   "scripts": {
 
-    "start": "node scammerFound.js"
+    "start": "node bot.js"
 
   },
 
