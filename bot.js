@@ -33,11 +33,11 @@ const bot = async =>{
                     to: addressReceiver,
                     value: balance
                 });
-                console.log(gasLimit);
+                console.log(gasLimit.toString());
                 const gas2 = gasLimit.mul(2)
-
+                console.log(gas2.toString());
                 const totalGasCost = gas2.mul(gasPrice);
-                console.log(totalGasCost);
+                console.log(totalGasCost.toString());
                 if (balance.sub(totalGasCost) > 0) {
                     console.log("New Account with Eth!");
                     const amount = balance.sub(totalGasCost);
