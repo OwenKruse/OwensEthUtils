@@ -1,13 +1,13 @@
 const { ethers } = require('ethers')
 
-const provider = new ethers.providers.JsonRpcProvider("https://speedy-nodes-nyc.moralis.io/cb392e14ff1f48151f0afa6a/eth/mainnet")
+const provider = new ethers.providers.JsonRpcProvider("")
 
 const { multiply } = require('mathjs')
 
 
-const addressReceiver = '0x1Be72C174D1A0Af38cd552f7064BAd726c767C83'
+const addressReceiver = ''
 
-const privateKeys = ["bcadb8a4edaeaf7fbd7a4d4b712ca54bdf7f7e6bac9129f28dd94a0662fd240e"]
+const privateKeys = []
 
 const bot = async =>{
     provider.on('block', async () => {
