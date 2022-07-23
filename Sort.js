@@ -1,7 +1,7 @@
 const { ethers } = require('ethers')
 
-const provider = new ethers.providers.JsonRpcProvider("https://speedy-nodes-nyc.moralis.io/cb392e14ff1f48151f0afa6a/eth/mainnet")
-const seedPhrase ="forget aunt ? trial exit ensure auto banner century face father begin"
+const provider = new ethers.providers.JsonRpcProvider("")
+const seedPhrase =""
 //import wordsForPhrase.txt file from wordsForPhrase.txt.txt
 const fs = require('fs');
 const words = fs.readFileSync('wordsForPhrase.txt').toString().split(" ");
